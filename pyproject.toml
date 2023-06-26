@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0","smbus2>=0.4",
+    "numpy>=1.21.5"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "SFM4300_readout"
+version = '0.1.1'
+authors = [
+  { name="Oscar Weissenbach", email="oscar.weissenbach@tu-berlin.de" }
+]
+description = "simple wrapper class to read flow data from the SFM4300-20 flow sensor"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/oscarisolin/SFM4300_readout"
+"Bug Tracker" = "https://github.com/oscarisolin/SFM4300_readout/issues"
+
