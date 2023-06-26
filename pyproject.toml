@@ -1,6 +1,5 @@
 [build-system]
-requires = ["setuptools>=61.0","smbus2>=0.4",
-    "numpy>=1.21.5"]
+requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -17,6 +16,11 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
+dependecies = [
+    "smbus2>=0.4",
+    "numpy>=1.21.5"
+]
+
 
 [project.urls]
 "Homepage" = "https://github.com/oscarisolin/SFM4300_readout"
